@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/Zenith Bank Logo - PNG Logo Vector Brand Downloads (SVG, EPS).jfif" type="image/x-icon">
+    <link rel="stylesheet" href="./css/materialize.css">
+    <title>Apply Now</title>
+    <style>
+        .curvacious{
+            border-radius: 20px;
+        }
+        .bold-text{
+            font-weight: bold;
+        }
+        .input-field input:focus{
+            border-bottom: 1px solid #B71C1C !important;
+            box-shadow: 0 1px 0 0 #B71C1C !important;
+        }
+        .input-field .prefix.active, label.active{
+            color: #B71C1C !important;
+        }
+        span.red-text.text-darken-4::after{
+            background-color: #B71C1C;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="white valign-wrapper">
+                <div class="container">
+                    <a href="./index.html" class="red-text text-darken-4 flow-text brand-logo"><img src="./img/Zenith Bank Logo - PNG Logo Vector Brand Downloads (SVG, EPS).jfif" alt="" style="max-width: 50px;" class="brand-logo"></a>
+                    <ul class="right">
+                        <li><a href="" class="red-text text-darken-4">About Us</a></li>
+                        <li><a href="" class="red-text text-darken-4">Contact Us</a></li>
+                        <li><a href="./form.html" class="btn red darken-4 white-text curvacious">Apply Now</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container center">
+            <h3 class="red-text text-darken-4">Account Opening Form</h3>
+            <div class="row">
+                <div class="col s12">
+                    <form action="">
+                        <div class="col s12 input-field">
+                            <i class="material-icons prefix">person</i>
+                            <label for="name">Account Name</label>
+                            <input required type="text" id="name" name="name">
+                        <div class="col s12 input-field">
+                            <i class="material-icons prefix">assignment</i>
+                            <label for="bvn">Bank Verification Number(BVN)</label>
+                            <input required type="number" id="bvn" name="bvn">
+                        </div>
+                        <div class="col s12 input-field">
+                            <i class="material-icons prefix">account_balance_wallet
+                                </i>
+                            <label for="acc">Account Number</label>
+                            <input required type="number" id="acc" name="acc">
+                        </div>
+                        <h5 class="red-text text-darken-4">Account Category</h5>
+                        <div class="col l6 input-field left-align">
+                            <p>
+                                <label for="indi">
+                                    <input required type="radio" name="type" id="indi">
+                                    <span class="red-text text-darken-4">Individual</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label for="join">
+                                    <input required type="radio" name="type" id="join">
+                                    <span class="red-text text-darken-4">Joint</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="col l6 input-field left-align">
+                            <p>
+                                <label for="save">
+                                    <input required type="radio" name="Category" id="save">
+                                    <span class="red-text text-darken-4">Savings</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label for="cur">
+                                    <input required type="radio" name="Category" id="cur">
+                                    <span class="red-text text-darken-4">Current</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label for="fix">
+                                    <input required type="radio" name="Category" id="fix">
+                                    <span class="red-text text-darken-4">Fixed</span>
+                                </label>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+    </div>
+        <div class="container center-align">
+            <h4 class="red-text text-darken-4 bold-text">Personal Information</h3>
+                <div class="row">
+                    <div class="col l12">
+                        <form action="">
+                            <div class="col l4 input-field">
+                                <i class="material-icons prefix">perm_identity</i>
+                                <label for="title">Title</label>
+                                <input required type="text" name="title" id="title">
+                            </div>
+                            <div class="col l8 input-field">
+                                <i class="material-icons prefix">person</i>
+                                <label for="surname">Surname</label>
+                                <input required type="text" name="surname" id="surname">
+                            </div>
+                            <div class="col l6 input-field">
+                                <i class="material-icons prefix">person</i>
+                                <label for="fname">First Name</label>
+                                <input required type="text" name="fname" id="fname">
+                            </div>
+                            <div class="col l6 input-field">
+                                <i class="material-icons prefix">person</i>
+                                <label for="oname">Other Name</label>
+                                <input required type="text" name="oname" id="oname">
+                            </div>
+                            <div class="col l12 input-field">
+                                <i class="material-icons prefix">person</i>
+                                <label for="mname">Mother's Maiden Name</label>
+                                <input required type="text" name="mname" id="mname">
+                            </div>
+                            <div class="col s12 l6 input-field">
+                                <i class="material-icons prefix">date_range</i>
+                                <input required type="text" class="datepicker" placeholder="Date of Birth">
+                            </div>
+                            <div class="col l6 input-field">
+                                <i class="material-icons prefix">navigation</i>
+                                <label for="pob">Place of Birth</label>
+                                <input required type="text" name="pob" id="pob">
+                            </div>
+                            <div class="col l6 input-field">
+                                <i class="material-icons prefix">flag</i>
+                                <label for="nation">Nationality</label>
+                                <input required type="text" name="nation" id="nation">
+                            </div>
+                            <div class="col l6 input-field">
+                                <i class="material-icons prefix">flag</i>
+                                <label for="soo">State of Birth</label>
+                                <input required type="text" name="soo" id="soo">
+                            </div>
+                            <div class="col l4 input-field">
+                                <i class="material-icons prefix">mail</i>
+                                <label for="email">E-Mail</label>
+                                <input required type="email" name="email" id="email">
+                            </div>
+                            <div class="col l4 input-field">
+                                <i class="material-icons prefix">phone</i>
+                                <label for="phone">Phone Number</label>
+                                <input required type="tel" name="phone" id="phone">
+                            </div>
+                            <div class="col l4 input-field">
+                                <i class="material-icons prefix">near_me</i>
+                                <label for="lga">L.G.A</label>
+                                <input required type="text" name="lga" id="lga">
+                            </div>
+                            <div class="col s12 input-field">
+                                <i class="material-icons prefix">home</i>
+                                <label for="addy">Residential Address</label>
+                                <textarea name="addy" id="addy" cols="50"></textarea>
+                            </div>
+                            <div class="col s12 l4 input-field">
+                                <select name="marital-status" id="marital-status">
+                                    <option value="">Single</option>
+                                    <option value="">Married</option>
+                                    <option value="">Divorce</option>
+                                    <option value="">Widowed</option>
+                                    <option value="">Rather not Say</option>
+                                </select>
+                                <label for="marital-status">Marital Status</label>
+                            </div>
+                            <div class="col s12 l4 input-field">
+                                <select name="gender" id="gender">
+                                    <option value="">Male</option>
+                                    <option value="">Female</option>
+                                    <option value="">Trans-Gender</option>
+                                    <option value="">Rather not say</option>
+                                </select>
+                                <label for="gender">Gender</label>
+                            </div>
+                            <div class="col s12 l4 input-field">
+                                <select name="identity" id="identity">
+                                    <option value="">NIN</option>
+                                    <option value="">Drivers License</option>
+                                    <option value="">International Passport</option>
+                                    <option value="">INEC's Voters Card</option>
+                                </select>
+                                <label for="identity">Means of Identification</label>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="divider"></div>
+        </div>
+        <div class="container center-align">
+            <h4 class="red-text text-darken-4 bold-text">Next of Kin Details</h4>
+            <div class="row">
+                <div class="col">
+                    <form action="">
+                        <div class="col l4 input-field">
+                            <i class="material-icons prefix">perm_identity</i>
+                            <label for="title">Title</label>
+                            <input required type="text" name="title" id="title">
+                        </div>
+                        <div class="col l8 input-field">
+                            <i class="material-icons prefix">person</i>
+                            <label for="surname">Surname</label>
+                            <input required type="text" name="surname" id="surname">
+                        </div>
+                        <div class="col l6 input-field">
+                            <i class="material-icons prefix">person</i>
+                            <label for="fname">First Name</label>
+                            <input required type="text" name="fname" id="fname">
+                        </div>
+                        <div class="col l6 input-field">
+                            <i class="material-icons prefix">person</i>
+                            <label for="oname">Other Name</label>
+                            <input required type="text" name="oname" id="oname">
+                        </div>
+                        <div class="col s12 l6 input-field">
+                            <i class="material-icons prefix">date_range</i>
+                            <input required type="text" class="datepicker" placeholder="Date of Birth">
+                        </div>
+                        <div class="col l6 input-field">
+                            <i class="material-icons prefix">flag</i>
+                            <label for="soo">State</label>
+                            <input required type="text" name="soo" id="soo">
+                        </div>
+                        <div class="col l4 input-field">
+                            <i class="material-icons prefix">mail</i>
+                            <label for="email">E-Mail</label>
+                            <input required type="email" name="email" id="email">
+                        </div>
+                        <div class="col l4 input-field">
+                            <i class="material-icons prefix">phone</i>
+                            <label for="phone">Phone Number</label>
+                            <input required type="tel" name="phone" id="phone">
+                        </div>
+                        <div class="col l4 input-field">
+                            <i class="material-icons prefix">near_me</i>
+                            <label for="lga">L.G.A</label>
+                            <input required type="text" name="lga" id="lga">
+                        </div>
+                        <div class="col s12 l6 input-field">
+                            <select name="marital-status" id="marital-status">
+                                <option value="">Single</option>
+                                <option value="">Married</option>
+                                <option value="">Divorce</option>
+                                <option value="">Widowed</option>
+                                <option value="">Rather not Say</option>
+                            </select>
+                            <label for="marital-status">Marital Status</label>
+                        </div>
+                        <div class="col s12 l6 input-field">
+                            <select name="gender" id="gender">
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                                <option value="">Trans-Gender</option>
+                                <option value="">Rather not say</option>
+                            </select>
+                            <label for="gender">Gender</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+        <div class="container center-align">
+            <h4 class="red-text text-darken-4 bold-text">Employment Details</h4>
+            <div class="row">
+                <div class="col s12">
+                    <form action="">
+                        <div class="col l4 input-field">
+                            <select name="estatus" id="estatus">
+                                <option value="">Employed</option>
+                                <option value="">Self-Employed</option>
+                                <option value="">Retired</option>
+                                <option value="">Student</option>
+                            </select>
+                            <label for="estatus">Employment Status</label>
+                        </div>
+                        <div class="col l8 input-field">
+                            <i class="material-icons prefix">person</i>
+                            <label for="ename">Employer's Name</label>
+                            <input type="text" name="ename" id="ename">
+                        </div>
+                        <div class="col l12 input-field">
+                            <i class="material-icons prefix">label_outline</i>
+                            <label for="nature">Nature of Buisenness/Occupation</label>
+                            <textarea name="nature" id="nature"></textarea>
+                        </div>
+                        <div class="col l3 input-field">
+                            <i class="material-icons prefix">mail</i>
+                            <label for="email">E-Mail</label>
+                            <input required type="email" name="email" id="email">
+                        </div>
+                        <div class="col l3 input-field">
+                            <i class="material-icons prefix">phone</i>
+                            <label for="phone">Phone Number</label>
+                            <input required type="tel" name="phone" id="phone">
+                        </div>
+                        <div class="col l3 input-field">
+                            <i class="material-icons prefix">flag</i>
+                            <label for="estate">State</label>
+                            <input required type="text" name="estate" id="estate">
+                        </div>
+                        <div class="col l3 input-field">
+                            <i class="material-icons prefix">near_me</i>
+                            <label for="elga">L.G.A</label>
+                            <input required type="text" name="elga" id="elga">
+                        </div>
+                        <div class="col l12 input-field">
+                            <select name="esalary" id="esalary">
+                                <option value="">Below #50,000</option>
+                                <option value="">#50,000 - #250,000</option>
+                                <option value="">#250,000 - #500,000/option>
+                                <option value="">#500,000 - #1,000,000</option>
+                                <option value="">#1,000,000 - #5,000,000</option>
+                                <option value="">#5,000,000 - #10,000,000</option>
+                                <option value="">#10,000,000 - #20,000,000</option>
+                                <option value="">#20,000,000+</option>
+                            </select>
+                            <label for="esalary">Employment Status</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer black lighten-5" style="padding: 20px 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col l4 center">
+                    <h5 class="red-text text-darken-4">E-Banking</h5>
+                    <ul>
+                        <li>Home</li>
+                        <li>Security</li>
+                        <li>Transfer</li>
+                    </ul>
+                </div>
+                <div class="col l4 center">
+                    <h5 class="red-text text-darken-4">FAQ's</h5>
+                    <ul>
+                        <li>Error 69</li>
+                        <li>Insufficient funds</li>
+                        <li>Internet connection Unstable</li>
+                        <li>Transfer reversals</li>
+                    </ul>
+                </div>
+                <div class="col l4 center">
+                    <h5 class="red-text text-darken-4">Registration</h5>
+                    <ul>
+                        <li>Create Account</li>
+                        <li>Update details</li>
+                        <li>Apply now</li>
+                    </ul>
+                </div>
+                <div class="col l4"></div>
+                <div class="col l4"></div>
+            </div>
+            <h6 class="red-text text-darken-4 center-align">&copyZenith Bank 2024 All rights reserved</h6>
+        </div>
+    </footer>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".datepicker").datepicker({
+                yearRange: 50,
+                disableWeekends: true,
+                format: 'dd mm, yyyy'
+            });
+            $(".timepicker").timepicker();
+            $("select").formSelect();
+        });
+    </script>
+</body>
+</html>
